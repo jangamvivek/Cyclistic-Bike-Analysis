@@ -94,13 +94,3 @@ Targeting high-traffic stations with promotional campaigns.
 Improving app-based incentives for frequent casual users.
 
 Leverage commuter-focused features (e.g., flexible plans, perks) to retain members.
-
-
-
-## 📑 Project Structure
-Cyclistic-Bike-Analysis/
-│── data/              # Raw & cleaned datasets
-│── notebooks/         # Jupyter notebooks for EDA
-│── visualizations/    # Tableau/Power BI dashboards & charts
-│── reports/           # Final report & presentation
-│── README.md          # Project documentation
