@@ -1,19 +1,20 @@
-🚲 Cyclistic Bike Analysis Project
-📌 Overview
+# 🚲 Cyclistic Bike Analysis Project
+
+## 📌 Overview
 
 This project analyzes historical trip data from Cyclistic, a fictional bike-sharing company in Chicago. The goal is to uncover insights into how different customer segments (casual riders vs. annual members) use Cyclistic bikes and provide recommendations to increase annual memberships, which is key to the company’s long-term growth strategy.
 
 This case study follows the Google Data Analytics Capstone Project structure.
 
-🎯 Objectives
 
+## 🎯 Objective
 Analyze usage patterns between casual riders and annual members.
 
 Identify key factors influencing membership conversion.
 
 Provide data-driven recommendations to improve customer retention and engagement.
 
-📂 Dataset
+## 📂 Dataset
 
 Data Source: Divvy Trip Data
  (publicly available).
@@ -23,9 +24,8 @@ Duration: 12 months of historical trip data (latest complete year).
 Format: CSV files (~100MB+ each).
 
 License: Data is made available by Motivate International Inc. under this license
-.
 
-🛠️ Tools & Technologies
+## 🛠️ Tools & Technologies
 
 Programming: Python (Pandas, NumPy, Matplotlib, Seaborn)
 
@@ -35,9 +35,10 @@ Data Cleaning & Transformation: Jupyter Notebook, SQL (optional)
 
 Version Control: Git & GitHub
 
-📊 Key Steps
 
-Data Cleaning
+## 📊 Key Steps
+
+Data Cleaning.
 
 Remove missing & duplicate values.
 
@@ -55,7 +56,7 @@ Seasonal & time-of-day trends.
 
 Popular start and end stations.
 
-Visualization
+### Visualization.
 
 Member vs. casual rider comparisons.
 
@@ -71,7 +72,7 @@ Members ride more consistently for commuting.
 
 Targeted marketing campaigns can convert casual riders into members.
 
-📈 Sample Visualizations
+### 📈 Sample Visualizations
 
 (Add screenshots or links to Tableau/Power BI dashboards here)
 
@@ -81,7 +82,8 @@ Rides by Weekday and Hour
 
 Top Stations by Rider Type
 
-🚀 Results & Recommendations
+
+### 🚀 Results & Recommendations
 
 Encourage casual riders to purchase annual memberships by:
 
@@ -95,7 +97,7 @@ Leverage commuter-focused features (e.g., flexible plans, perks) to retain membe
 
 
 
-📑 Project Structure
+## 📑 Project Structure
 Cyclistic-Bike-Analysis/
 │── data/              # Raw & cleaned datasets
 │── notebooks/         # Jupyter notebooks for EDA
