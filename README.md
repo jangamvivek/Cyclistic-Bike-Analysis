@@ -11,7 +11,7 @@ The following dashboards were designed to visualize key metrics and insights fro
 
 ### 1️⃣ Overview Dashboard
 
-![Dashboard 1](public/dashboard1.png)
+![Dashboard 1](dashboard1.png)
 
 **Insights:**
 - **Total Rides:** `7,62,415` rides recorded in the dataset.  
@@ -30,7 +30,7 @@ The following dashboards were designed to visualize key metrics and insights fro
 
 ### 2️⃣ Trip Type, Revenue, and Top Stations
 
-![Dashboard 2](public/dashboard2.png) 
+![Dashboard 2](dashboard2.png) 
 
 **Insights:**
 - **Trip Type Distribution:**  
