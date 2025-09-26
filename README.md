@@ -1,96 +1,89 @@
-# 🚲 Cyclistic Bike Analysis Project
+# 🚴 Cyclistic Bike-Share Case Study
 
-## 📌 Overview
+This repository contains the analysis of the **Cyclistic bike-share dataset**.  
+The goal of this project is to explore usage patterns of **Casual riders vs. Annual Members**, uncover insights into riding behavior, and identify opportunities to convert casual riders into members.
 
-This project analyzes historical trip data from Cyclistic, a fictional bike-sharing company in Chicago. The goal is to uncover insights into how different customer segments (casual riders vs. annual members) use Cyclistic bikes and provide recommendations to increase annual memberships, which is key to the company’s long-term growth strategy.
+---
 
-This case study follows the Google Data Analytics Capstone Project structure.
+## 📊 Dashboard Design
 
+The following dashboards were designed to visualize key metrics and insights from the dataset.
 
-## 🎯 Objective
-Analyze usage patterns between casual riders and annual members.
+### 1️⃣ Overview Dashboard
 
-Identify key factors influencing membership conversion.
+![Dashboard 1](public/dashboard1.png)
 
-Provide data-driven recommendations to improve customer retention and engagement.
+**Insights:**
+- **Total Rides:** `7,62,415` rides recorded in the dataset.  
+- **Classic Bike Rides:** `10,54,205` vs. **Electric Bike Rides:** `18,47,297` → Electric bikes are more popular among users.  
+- **Total Stations:** `6,195` active stations across the network.  
 
-## 📂 Dataset
+#### Members vs. Casual Daily Ride Count
+- Members consistently take more weekday rides, peaking on **Tuesdays and Thursdays**.  
+- Casual riders ride more during weekends, especially on **Saturdays and Sundays**, indicating leisure-based usage.  
 
-Data Source: Divvy Trip Data
- (publicly available).
+#### Monthly Ride Counts (December → July)
+- Members maintain a steady upward growth trend.  
+- Casual rides rise more significantly from **May to July**, likely influenced by better weather and tourism.
 
-Duration: 12 months of historical trip data (latest complete year).
+---
 
-Format: CSV files (~100MB+ each).
+### 2️⃣ Trip Type, Revenue, and Top Stations
 
-License: Data is made available by Motivate International Inc. under this license
+![Dashboard 2](public/dashboard2.png) 
 
-## 🛠️ Tools & Technologies
+**Insights:**
+- **Trip Type Distribution:**  
+  - **Round Trips:** 52.98%  
+  - **One Way Trips:** 47.02%  
+  - Round trips are slightly more common, showing casual leisure usage patterns.  
 
-Programming: Python (Pandas, NumPy, Matplotlib, Seaborn)
+- **Average Revenue per Ride:**  
+  - Casual Riders: `$1.45`  
+  - Members: `$0.13`  
+  - Casual users contribute significantly higher revenue per ride, but members ride more frequently overall.  
 
-Visualization: Tableau / Power BI
+- **Top Stations – Casual Riders:**  
+  - Popular locations include **Streeter Dr & Grand Ave (7,105 rides)**, **Lake Shore Drive stations**, and **Millennium Park**.  
+  - These stations are tourist-heavy, reinforcing that casual riders are often visitors.  
 
-Data Cleaning & Transformation: Jupyter Notebook, SQL (optional)
+- **Top Stations – Members:**  
+  - Frequently used stations include **Kingsbury St & Kinzie St (3,602 rides)**, **Clinton St**, and **State St**.  
+  - These are mostly **commuter-heavy stations**, showing members use the service for daily work commutes.
 
-Version Control: Git & GitHub
+---
 
+## 📝 Key Takeaways
+- **Casual vs Member Behavior:** Casual riders ride mostly on weekends & at tourist attractions, while members ride on weekdays for commutes.  
+- **Revenue Potential:** Casual riders generate more revenue per trip, but sustained engagement through memberships ensures long-term retention.  
+- **Growth Opportunity:** Cyclistic can focus on converting casual riders (especially weekend users and tourists) into members by offering seasonal/short-term membership packages.
 
-## 📊 Key Steps
+---
 
-Data Cleaning.
+## 📂 Repository Contents
+- Data Cleaning & Transformation Scripts  
+- Exploratory Data Analysis (EDA)  
+- Visualization Notebooks  
+- Dashboard Design Screenshots  
 
-Remove missing & duplicate values.
+---
 
-Convert data types (timestamps, station IDs).
+## ⚙️ Tools Used
+- **Python (Pandas, Matplotlib, Seaborn)** for data wrangling and analysis  
+- **SQL** for querying large datasets  
+- **Tableau / Power BI** for visualization and dashboard design  
+- **Excel** for quick data exploration
 
-Standardize column names across datasets.
+---
 
-Exploratory Data Analysis (EDA)
+## 🚀 How to Reproduce This Analysis
+1. Download the Cyclistic bike-share dataset from [Kaggle / Google Data Analytics Capstone Dataset](https://divvy-tripdata.s3.amazonaws.com/index.html).  
+2. Run the preprocessing scripts in the `notebooks/` folder.  
+3. Open the visualization dashboards in Tableau / Power BI to explore insights.  
+4. View the final dashboards included in this repository (`dashboard1.png` and `dashboard2.png`).  
 
-Trip duration & distance analysis.
+---
 
-Weekday vs. weekend usage patterns.
+✍️ **Author:** Vivek Jangam  
+🔗 Connect with me on [LinkedIn](https://www.linkedin.com)  
 
-Seasonal & time-of-day trends.
-
-Popular start and end stations.
-
-### Visualization.
-
-Member vs. casual rider comparisons.
-
-Heatmaps for weekday-hour usage.
-
-Trend charts for monthly ridership.
-
-Insights & Recommendations
-
-Casual riders prefer weekends & leisure trips.
-
-Members ride more consistently for commuting.
-
-Targeted marketing campaigns can convert casual riders into members.
-
-### 📈 Sample Visualizations
-
-(Add screenshots or links to Tableau/Power BI dashboards here)
-
-Monthly Usage Trends
-
-Rides by Weekday and Hour
-
-Top Stations by Rider Type
-
-
-### 🚀 Results & Recommendations
-
-Encourage casual riders to purchase annual memberships by:
-
-Offering discounts for weekend passes converting into memberships.
-
-Targeting high-traffic stations with promotional campaigns.
-
-Improving app-based incentives for frequent casual users.
-
-Leverage commuter-focused features (e.g., flexible plans, perks) to retain members.
