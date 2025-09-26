@@ -70,17 +70,8 @@ The following dashboards were designed to visualize key metrics and insights fro
 
 ## ⚙️ Tools Used
 - **Python (Pandas, Matplotlib, Seaborn)** for data wrangling and analysis  
-- **SQL** for querying large datasets  
 - **Tableau / Power BI** for visualization and dashboard design  
 - **Excel** for quick data exploration
-
----
-
-## 🚀 How to Reproduce This Analysis
-1. Download the Cyclistic bike-share dataset from [Kaggle / Google Data Analytics Capstone Dataset](https://divvy-tripdata.s3.amazonaws.com/index.html).  
-2. Run the preprocessing scripts in the `notebooks/` folder.  
-3. Open the visualization dashboards in Tableau / Power BI to explore insights.  
-4. View the final dashboards included in this repository (`dashboard1.png` and `dashboard2.png`).  
 
 ---
 
